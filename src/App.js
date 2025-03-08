@@ -3,7 +3,8 @@ import './App.css';
 // import Index from './component/Clock.js';
 // import LoginController from './component/LoginController.js';
 // import Blog from './component/Blog.js';
-import Counter from './component/Counter.js';
+// import Counter from './component/Counter.js';
+import String from './component/String';
 
 function App() {
 
@@ -14,7 +15,8 @@ function App() {
         {/* <Index date></Index> */}
         {/* <LoginController></LoginController> */}
         {/* <Blog data={[{id: 1, subject: "C++"}, {id: 2, subject: "Python"}]}></Blog> */}
-        <Counter></Counter>
+        {/* <Counter></Counter> */}
+        <String></String>
       </div>
     </div>
     </>
