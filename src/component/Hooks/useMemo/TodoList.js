@@ -6,6 +6,8 @@ export default function TodoList({ todos, theme, tab }) {
     () => filterTodos(todos, tab),
     [todos, tab]
   );
+
+//   const visibleTodos = filterTodos(todos, tab);
   return (
     <div className={theme}>
       <p><b>Note: <code>filterTodos</code> is artificially slowed down!</b></p>
