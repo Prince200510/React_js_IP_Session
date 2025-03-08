@@ -1,6 +1,6 @@
 import React,{ createContext, useContext } from 'react';
 import './App.css';
-import Chatcontainer from './component/Hooks/useEffect/Chatcontainer';
+// import Chatcontainer from './component/Hooks/useEffect/Chatcontainer';
 // import Index from './component/Clock.js';
 // import LoginController from './component/LoginController.js';
 // import Blog from './component/Blog.js';
@@ -8,6 +8,7 @@ import Chatcontainer from './component/Hooks/useEffect/Chatcontainer';
 // import String from './component/Hooks/String';
 // import Reducer from './component/Hooks/Reducer';
 // import Form from './component/Hooks/context/Form';
+import MemoApp from './component/Hooks/useMemo/MemoApp';
 
 // export const ThemeContext = createContext({value: 'lights'});
 
@@ -26,7 +27,8 @@ function App() {
         {/* <ThemeContext.Provider>
           <Form></Form>
         </ThemeContext.Provider> */}
-        <Chatcontainer></Chatcontainer>
+        {/* <Chatcontainer></Chatcontainer> */}
+        <MemoApp></MemoApp>
       </div>
     </div>
     </>
